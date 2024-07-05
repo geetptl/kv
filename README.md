@@ -21,3 +21,7 @@ make format
 ```
 
 Formats ./src
+
+# Changelog
+
+5 Jul 2024 Checking in some structure
