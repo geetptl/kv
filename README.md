@@ -24,4 +24,6 @@ Formats ./src
 
 # Changelog
 
+5 Jul 2024 Moving to C++ so I can focus on Write-ahead logging instead of hashmap implementation
+
 5 Jul 2024 Checking in some structure

@@ -1,5 +1,5 @@
 # Define the compiler
-CC = gcc
+CC = g++
 
 # Define compiler flags
 CFLAGS = -Wall -g
@@ -10,13 +10,13 @@ BIN_DIR = bin
 OBJ_DIR = obj
 
 # Define the target executable
-TARGET = $(BIN_DIR)/kv
+TARGET = $(BIN_DIR)/client
 
 # Define the source file
-SRC = $(SRC_DIR)/handler.c
+SRC = $(SRC_DIR)/client.cpp
 
 # Define the object file (intermediate compiled file)
-OBJ = $(OBJ_DIR)/kv.o
+OBJ = $(OBJ_DIR)/client.o
 
 # The default goal
 all: $(TARGET)
